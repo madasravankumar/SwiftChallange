@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44E16CECF203D80DFCCB7432 /* Pods_AirportsChallange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F868C0176E14661594E720AE /* Pods_AirportsChallange.framework */; };
 		93A247C31EF3D80300A7235D /* AirportDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A247C21EF3D80300A7235D /* AirportDataManager.swift */; };
 		93A247CC1EF3D89800A7235D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A247CB1EF3D89800A7235D /* libsqlite3.0.tbd */; };
 		CAE290F31EF3D45600055C77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE290F21EF3D45600055C77 /* AppDelegate.swift */; };
@@ -19,9 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EBED5ECDA898FA86563CE9D /* Pods-AirportsChallange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsChallange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirportsChallange/Pods-AirportsChallange.debug.xcconfig"; sourceTree = "<group>"; };
 		93A247C21EF3D80300A7235D /* AirportDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportDataManager.swift; sourceTree = "<group>"; };
 		93A247C41EF3D87700A7235D /* AirportsChallange-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirportsChallange-Bridging-Header.h"; sourceTree = "<group>"; };
 		93A247CB1EF3D89800A7235D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C4A7A8AFD2D6AF186959C2C8 /* Pods-AirportsChallange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsChallange.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirportsChallange/Pods-AirportsChallange.release.xcconfig"; sourceTree = "<group>"; };
 		CAE290EF1EF3D45600055C77 /* AirportsChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportsChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE290F21EF3D45600055C77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAE290F41EF3D45600055C77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +34,7 @@
 		CAE290FE1EF3D45600055C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAE291051EF3D92A00055C77 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = NetworkManager/NetworkManager.swift; sourceTree = "<group>"; };
 		CAE291081EF3D95000055C77 /* AirportsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AirportsModel.swift; path = ModalObject/AirportsModel.swift; sourceTree = "<group>"; };
+		F868C0176E14661594E720AE /* Pods_AirportsChallange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportsChallange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93A247CC1EF3D89800A7235D /* libsqlite3.0.tbd in Frameworks */,
+				44E16CECF203D80DFCCB7432 /* Pods_AirportsChallange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				93A247CB1EF3D89800A7235D /* libsqlite3.0.tbd */,
+				F868C0176E14661594E720AE /* Pods_AirportsChallange.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 				CAE290F11EF3D45600055C77 /* AirportsChallange */,
 				CAE290F01EF3D45600055C77 /* Products */,
 				93A247CA1EF3D89800A7235D /* Frameworks */,
+				FA48E5D8C2844BE52D810698 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +110,15 @@
 			name = ModelObject;
 			sourceTree = "<group>";
 		};
+		FA48E5D8C2844BE52D810698 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EBED5ECDA898FA86563CE9D /* Pods-AirportsChallange.debug.xcconfig */,
+				C4A7A8AFD2D6AF186959C2C8 /* Pods-AirportsChallange.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAE291011EF3D45600055C77 /* Build configuration list for PBXNativeTarget "AirportsChallange" */;
 			buildPhases = (
+				D1B911E093F9635A76847E92 /* [CP] Check Pods Manifest.lock */,
 				CAE290EB1EF3D45600055C77 /* Sources */,
 				CAE290EC1EF3D45600055C77 /* Frameworks */,
 				CAE290ED1EF3D45600055C77 /* Resources */,
+				DB5B54FC214259F6BC46627F /* [CP] Embed Pods Frameworks */,
+				EB91B2E67002EEF2DF2EB3DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,6 +189,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1B911E093F9635A76847E92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5B54FC214259F6BC46627F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirportsChallange/Pods-AirportsChallange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB91B2E67002EEF2DF2EB3DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirportsChallange/Pods-AirportsChallange-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CAE290EB1EF3D45600055C77 /* Sources */ = {
@@ -303,11 +370,13 @@
 		};
 		CAE291021EF3D45600055C77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBED5ECDA898FA86563CE9D /* Pods-AirportsChallange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AirportsChallange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.AirportsChallange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,22 +384,26 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "AirportsChallange/AirportsChallange-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		CAE291031EF3D45600055C77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A7A8AFD2D6AF186959C2C8 /* Pods-AirportsChallange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AirportsChallange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.AirportsChallange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "AirportsChallange/AirportsChallange-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
