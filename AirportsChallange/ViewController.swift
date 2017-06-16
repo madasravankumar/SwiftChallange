@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     lazy var airportsData: [[String: Any]] = {
         
-        let results = AirportDataManager.sharedInstance.selectQuery(tableName: "Apt_info")
+        let results = AirportDataManager.sharedInstance.getInformationfrom(tableName: "Apt_info")
         return results as! [[String : Any]]
     }()
     
@@ -40,10 +40,13 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.CellReuseIdetifiers().airportsCell)
+        let cell: CustomTableViewCell = tableView.dequeueReusableCell(withIdentifier: Constants.CellReuseIdetifiers().airportsCell) as! CustomTableViewCell
         let dict = airportsData[indexPath.section]
-        cell?.textLabel?.text = dict["icao"] as? String
-        return cell!
+        cell.icoLbl.text = dict["icao"] as? String
+        cell.airportName.text = (dict["lat"] as? String)!+(dict["lon"] as? String)!
+        
+        cell.backgroundColor = UIColor.clear
+        return cell
     }
 }
 

@@ -42,7 +42,7 @@ class AirportDataManager {
         return db!
     }
     
-    func selectQuery(tableName: String) -> Array<Any> {
+    func getInformationfrom(tableName: String) -> Array<Any> {
         var results = [AnyObject]()
         let filePath = getAirportDBPath()
         var db: OpaquePointer?
