@@ -14,6 +14,8 @@
 		CAE290F81EF3D45600055C77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE290F61EF3D45600055C77 /* Main.storyboard */; };
 		CAE290FA1EF3D45600055C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE290F91EF3D45600055C77 /* Assets.xcassets */; };
 		CAE290FD1EF3D45600055C77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE290FB1EF3D45600055C77 /* LaunchScreen.storyboard */; };
+		CAE291061EF3D92A00055C77 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE291051EF3D92A00055C77 /* NetworkManager.swift */; };
+		CAE291091EF3D95000055C77 /* AirportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE291081EF3D95000055C77 /* AirportsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		CAE290F91EF3D45600055C77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE290FC1EF3D45600055C77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAE290FE1EF3D45600055C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE291051EF3D92A00055C77 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = NetworkManager/NetworkManager.swift; sourceTree = "<group>"; };
+		CAE291081EF3D95000055C77 /* AirportsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AirportsModel.swift; path = ModalObject/AirportsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 		CAE290F11EF3D45600055C77 /* AirportsChallange */ = {
 			isa = PBXGroup;
 			children = (
+				CAE291071EF3D93300055C77 /* ModelObject */,
+				CAE291041EF3D90500055C77 /* Networkmanager */,
 				CAE290F21EF3D45600055C77 /* AppDelegate.swift */,
 				CAE290F41EF3D45600055C77 /* ViewController.swift */,
 				93A247C21EF3D80300A7235D /* AirportDataManager.swift */,
@@ -79,6 +85,22 @@
 				93A247C41EF3D87700A7235D /* AirportsChallange-Bridging-Header.h */,
 			);
 			path = AirportsChallange;
+			sourceTree = "<group>";
+		};
+		CAE291041EF3D90500055C77 /* Networkmanager */ = {
+			isa = PBXGroup;
+			children = (
+				CAE291051EF3D92A00055C77 /* NetworkManager.swift */,
+			);
+			name = Networkmanager;
+			sourceTree = "<group>";
+		};
+		CAE291071EF3D93300055C77 /* ModelObject */ = {
+			isa = PBXGroup;
+			children = (
+				CAE291081EF3D95000055C77 /* AirportsModel.swift */,
+			);
+			name = ModelObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE291061EF3D92A00055C77 /* NetworkManager.swift in Sources */,
 				CAE290F51EF3D45600055C77 /* ViewController.swift in Sources */,
 				CAE290F31EF3D45600055C77 /* AppDelegate.swift in Sources */,
 				93A247C31EF3D80300A7235D /* AirportDataManager.swift in Sources */,
+				CAE291091EF3D95000055C77 /* AirportsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
