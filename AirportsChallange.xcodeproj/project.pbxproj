@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		93A247C31EF3D80300A7235D /* AirportDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A247C21EF3D80300A7235D /* AirportDataManager.swift */; };
 		93A247CC1EF3D89800A7235D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A247CB1EF3D89800A7235D /* libsqlite3.0.tbd */; };
+		93A247CE1EF3DE8B00A7235D /* navDataBase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 93A247CD1EF3DE8B00A7235D /* navDataBase.sqlite */; };
+		93A247D01EF3DEFB00A7235D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A247CF1EF3DEFB00A7235D /* Constants.swift */; };
 		CAE290F31EF3D45600055C77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE290F21EF3D45600055C77 /* AppDelegate.swift */; };
 		CAE290F51EF3D45600055C77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE290F41EF3D45600055C77 /* ViewController.swift */; };
 		CAE290F81EF3D45600055C77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE290F61EF3D45600055C77 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 		93A247C21EF3D80300A7235D /* AirportDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportDataManager.swift; sourceTree = "<group>"; };
 		93A247C41EF3D87700A7235D /* AirportsChallange-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirportsChallange-Bridging-Header.h"; sourceTree = "<group>"; };
 		93A247CB1EF3D89800A7235D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		93A247CD1EF3DE8B00A7235D /* navDataBase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = navDataBase.sqlite; sourceTree = "<group>"; };
+		93A247CF1EF3DEFB00A7235D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CAE290EF1EF3D45600055C77 /* AirportsChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportsChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE290F21EF3D45600055C77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAE290F41EF3D45600055C77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				CAE290F21EF3D45600055C77 /* AppDelegate.swift */,
 				CAE290F41EF3D45600055C77 /* ViewController.swift */,
 				93A247C21EF3D80300A7235D /* AirportDataManager.swift */,
+				93A247CF1EF3DEFB00A7235D /* Constants.swift */,
+				93A247CD1EF3DE8B00A7235D /* navDataBase.sqlite */,
 				CAE290F61EF3D45600055C77 /* Main.storyboard */,
 				CAE290F91EF3D45600055C77 /* Assets.xcassets */,
 				CAE290FB1EF3D45600055C77 /* LaunchScreen.storyboard */,
@@ -163,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A247CE1EF3DE8B00A7235D /* navDataBase.sqlite in Resources */,
 				CAE290FD1EF3D45600055C77 /* LaunchScreen.storyboard in Resources */,
 				CAE290FA1EF3D45600055C77 /* Assets.xcassets in Resources */,
 				CAE290F81EF3D45600055C77 /* Main.storyboard in Resources */,
@@ -181,6 +188,7 @@
 				CAE290F31EF3D45600055C77 /* AppDelegate.swift in Sources */,
 				93A247C31EF3D80300A7235D /* AirportDataManager.swift in Sources */,
 				CAE291091EF3D95000055C77 /* AirportsModel.swift in Sources */,
+				93A247D01EF3DEFB00A7235D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
